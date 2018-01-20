@@ -1,0 +1,17 @@
+{
+  "name": "all-in-one",
+  "version": "1.0.0",
+  "description": "Inline all source to one html file. ",
+  "main": "",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Aiello Chan <Aiello.Chan@Gmail.com>",
+  "license": "Apache",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-inline": "^0.1.3",
+    "gulp-uglify": "^3.0.0"
+  }
+}
