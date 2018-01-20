@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 
 gulp.task('default', function () {
 
-    gulp.src('src/index.html')
+    gulp.src('src/*.html')
         .pipe(inline({
             base: './',
             js: uglify,
