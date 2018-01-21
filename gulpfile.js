@@ -11,8 +11,8 @@ gulp.task('default', function () {
             base: './',
             js: uglify,
             css: [cleanCSS],
-            disabledTypes: ['svg'],
-            ignore: ['./css/do-not-inline-me.css']
+            disabledTypes: [],
+            ignore: []
         }))
         .pipe(gulp.dest('dist/'));
 });
